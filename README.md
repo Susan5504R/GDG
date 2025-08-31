@@ -21,7 +21,7 @@ To reproduce the results from this project end-to-end, please follow these steps
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/Susan5504R/GDG]
+    git clone https://github.com/Susan5504R/GDG
     cd GDG
     ```
 
