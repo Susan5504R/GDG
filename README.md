@@ -12,19 +12,17 @@ This project follows a professional data science workflow, including:
 ## Project Structure
 - **/data/**: Contains the raw `final_dataset.csv`.
 - **/notebooks/**: Contains the Jupyter notebooks for analysis and modeling.
-  - `01_eda_and_preprocessing.ipynb`: The exploratory data analysis.
-  - `02_modeling_and_evaluation.ipynb`: The model training, tuning, and evaluation.
+  - `01_eda_and_preprocessing.ipynb`: The exploratory data analysis, The model training, tuning, and evaluation.
 - **/reports/**: Contains the final 2-page PDF evaluation report.
 - `README.md`: This file.
-- `requirements.txt`: The list of Python dependencies required to run the project.
 
 ## How to Reproduce Results
 To reproduce the results from this project end-to-end, please follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your Repository URL]
-    cd developer-role-classification
+    git clone [https://github.com/Susan5504R/GDG]
+    cd GDG
     ```
 
 2.  **Create and Activate a Virtual Environment:**
@@ -49,10 +47,8 @@ To reproduce the results from this project end-to-end, please follow these steps
     ```bash
     jupyter notebook
     ```
-    Then, open and run the notebooks in the `/notebooks/` directory in the following order:
-    1. `01_eda_and_preprocessing.ipynb`
-    2. `02_modeling_and_evaluation.ipynb`
+    Then, open and run the notebooks in the `/notebooks/` directory `01_eda_and_preprocessing.ipynb`
 
 ## Final Model & Performance
 - **Best Model:** LightGBM (Gradient Boosting)
-- **Primary Metric (Macro F1 Score):** `[Your Final Macro F1 Score]`
+- **Primary Metric (Macro F1 Score):** `0.9846`
